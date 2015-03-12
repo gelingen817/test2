@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: imageprocess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/imageprocess.res" /d "_DEBUG" /d "_AFXDLL" "Z:\LJJ\学习资料\大三上\数字图像处理\项目作业\final\imageprocess.rc"" 
+Creating temporary file "C:\Users\mac\AppData\Local\Temp\RSP455F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/imageprocess.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\LJJ\学习资料\大三上\数字图像处理\项目作业\final\CDib.cpp"
+"Z:\LJJ\学习资料\大三上\数字图像处理\项目作业\final\imageprocess.cpp"
+"Z:\LJJ\学习资料\大三上\数字图像处理\项目作业\final\imageprocessDoc.cpp"
+"Z:\LJJ\学习资料\大三上\数字图像处理\项目作业\final\imageprocessView.cpp"
+"Z:\LJJ\学习资料\大三上\数字图像处理\项目作业\final\MainFrm.cpp"
+"Z:\LJJ\学习资料\大三上\数字图像处理\项目作业\final\Morph.cpp"
+]
+Creating command line "cl.exe @C:\Users\mac\AppData\Local\Temp\RSP455F.tmp" 
+Creating temporary file "C:\Users\mac\AppData\Local\Temp\RSP4560.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/imageprocess.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\LJJ\学习资料\大三上\数字图像处理\项目作业\final\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\mac\AppData\Local\Temp\RSP4560.tmp" 
+Creating temporary file "C:\Users\mac\AppData\Local\Temp\RSP4561.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/imageprocess.pdb" /debug /machine:I386 /out:"Debug/imageprocess.exe" /pdbtype:sept 
+".\Debug\CDib.obj"
+".\Debug\imageprocess.obj"
+".\Debug\imageprocessDoc.obj"
+".\Debug\imageprocessView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Morph.obj"
+".\Debug\StdAfx.obj"
+".\Debug\imageprocess.res"
+]
+Creating command line "link.exe @C:\Users\mac\AppData\Local\Temp\RSP4561.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CDib.cpp
+imageprocess.cpp
+imageprocessDoc.cpp
+imageprocessView.cpp
+MainFrm.cpp
+Morph.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+imageprocess.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
